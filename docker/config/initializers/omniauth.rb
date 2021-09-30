@@ -5,6 +5,6 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   # provider :github, creds.github.client_id, creds.github.client_secret, scope: 'user:email'
 
   # ensure callback is always https
-  # OmniAuth.config.full_host = Rails.env.production? ? 'https://auth.opencspm.org' : 'http://localhost:5000'
+  # OmniAuth.config.full_host = Rails.env.production? ? 'https://auth.opencspm.org' : 'http://65.21.250.114:5000'
   # OmniAuth.config.allowed_request_methods = [:post]
 end

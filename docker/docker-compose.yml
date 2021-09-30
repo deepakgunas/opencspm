@@ -43,7 +43,7 @@ services:
     ports:
       - '5000:5000'
     healthcheck:
-      test: ['CMD', 'curl', '-f', 'http://localhost:5000/healthz']
+      test: ['CMD', 'curl', '-f', 'http://65.21.250.114:5000/healthz']
       interval: 5s
       timeout: 5s
       retries: 11

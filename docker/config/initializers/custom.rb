@@ -30,8 +30,8 @@ Rails.application.configure do
     #####
     # config.cookie_domain = '.opencspm.org'
     # config.ui_host = 'https://demo.opencspm.org'
-    config.cookie_domain = 'localhost'
-    config.ui_host = 'http://localhost:5000'
+    config.cookie_domain = '65.21.250.114'
+    config.ui_host = 'http://65.21.250.114:5000'
     #####
     # Example config for production frontend ui server
     #####
@@ -41,8 +41,8 @@ Rails.application.configure do
     config.session_store :cookie_store, key: '_opencspm_session'
     config.hosts << config.cookie_domain
   else
-    config.cookie_domain = 'localhost'
-    config.ui_host = 'http://localhost:8000'
+    config.cookie_domain = '65.21.250.114'
+    config.ui_host = 'http://65.21.250.114:8000'
     config.secure_csrf_token = false
     config.session_store :cookie_store, key: '_opencspm_session'
   end

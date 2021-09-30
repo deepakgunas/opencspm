@@ -29,7 +29,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
 
   # Devise
-  config.action_mailer.default_url_options = { host: 'localhost', port: 5000 }
+  config.action_mailer.default_url_options = { host: '65.21.250.114', port: 5000 }
 
   config.action_mailer.perform_caching = false
 
